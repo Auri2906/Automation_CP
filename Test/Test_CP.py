@@ -8,7 +8,7 @@ import pytest
 import time
 from Base import InitializeDriver
 
-print("please provide the input for eNB type in the following format:: ")
+'''print("please provide the input for eNB type in the following format:: ")
 print("4   :: 4G: Smartphone")
 print("44  :: 4G: Cat-M")
 print("444 :: 4G: Nb-IoT")
@@ -17,8 +17,8 @@ print("55  :: 5G: SA")
 
 global userList
 eNB = input("Enter a list eNB separated by space ::")
-print("\n")
-userList = eNB.split()
+print("\n")'''
+userList = '1'
 
 sdr = InitializeDriver.sdr()
 driver = InitializeDriver.browser()
